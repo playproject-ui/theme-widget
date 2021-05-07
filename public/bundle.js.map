@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["src/index.js"],"sourcesContent":["const div = document.createElement('div')\n\ndiv.innerHTML = '<h1>Hello world</h1>'\n\ndocument.body.appendChild(div)"],"names":["div","document","createElement","innerHTML","body","appendChild"],"mappings":"yBAAA,MAAMA,EAAMC,SAASC,cAAc,OAEnCF,EAAIG,UAAY,uBAEhBF,SAASG,KAAKC,YAAYL"}
