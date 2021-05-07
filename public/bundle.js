@@ -29,17 +29,14 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z$1 = "html {\n    font-size: 65%;\n}\nbody {\n    font-size: 1.6rem;\n    color: #333;\n    background-color: #f2f2f2;\n}\n.style_btn__1GBAn {\n    border: none;\n    border-radius: 24px;\n    padding: 8px 24px;\n    font-size: 1.6rem;\n    color: var(--button-default-color);\n    background-color: var(--button-default-bg);\n    transition: background-color 0.25s, color 0.25s ease-in-out;\n}\n\n.style_btn__1GBAn:hover {\n    color: var(--button-default-color);\n    background-color: rgba(0, 166, 255, 1);\n}";
+var css_248z = ":root {\n    --button-default-color: #ffffff;\n    --button-default-bg: #000000;\n}\nhtml {\n    font-size: 65%;\n}\nbody {\n    font-size: 1.6rem;\n    color: #333;\n    background-color: #f2f2f2;\n}\n.style_btn__1GBAn {\n    border: none;\n    border-radius: 24px;\n    padding: 8px 24px;\n    font-size: 1.6rem;\n    color: var(--button-default-color);\n    background-color: var(--button-default-bg);\n    transition: background-color 0.25s, color 0.25s ease-in-out;\n}\n.style_btn__1GBAn:hover {\n    color: var(--button-default-color);\n    background-color: rgba(0, 166, 255, 1);\n}";
 var style = {"btn":"style_btn__1GBAn"};
-styleInject(css_248z$1);
+styleInject(css_248z);
 
 function button() {
     const el = `<button class=${style.btn}>click me</button>`;
     return el
 }
-
-var css_248z = ":root {\n    --button-default-color: #ffffff;\n    --button-default-bg: #000000;\n}";
-styleInject(css_248z);
 
 function app() {
     const name = 'John Doe';

@@ -2,7 +2,7 @@ import livereload from 'rollup-plugin-livereload'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import postcss from 'rollup-plugin-postcss'
-import stylusCssModules from 'rollup-plugin-stylus-css-modules'
+import postcssImport from 'postcss-import'
 
 export default {
     input: 'src/index.js',
@@ -12,11 +12,11 @@ export default {
     },
     plugins: [
         livereload(),
-        stylusCssModules(),
         postcss({
             extract: false,
             modules: true,
-            use: ['stylus']
+            use: ['stylus'], 
+            plugins: [postcssImport]
         }),
         resolve(),
         commonjs()

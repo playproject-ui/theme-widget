@@ -1,5 +1,4 @@
 import { button }  from './modules/widget.js'
-import theme from './modules/theme.css'
 function app() {
     const name = 'John Doe'
     const head = `<h1>Hello ${name}!</h1>`
