@@ -11,5 +11,4 @@ function app() {
     return el
 }
 
-
 document.body.innerHTML = app()

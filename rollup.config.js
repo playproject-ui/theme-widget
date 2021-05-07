@@ -1,6 +1,6 @@
 import livereload from 'rollup-plugin-livereload'
 import resolve from '@rollup/plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs'
+import commonjs from '@rollup/plugin-commonjs'
 import postcss from 'rollup-plugin-postcss'
 import postcssImport from 'postcss-import'
 
