@@ -1,5 +1,0 @@
-var css_248z = "html {\n    font-size: 65%;\n}\nbody {\n    font-size: 1.6rem;\n    color: #333;\n    background-color: #f2f2f2;\n}\nbutton {\n    border-radius: 24px;\n    padding: 6px 12px;\n    font-size: 1.4rem;\n    color: rgba(255,255,255,1);\n    background-color: rgba(0,0,0,1);\n}";
-export default css_248z;
-export var stylesheet="html {\n    font-size: 65%;\n}\nbody {\n    font-size: 1.6rem;\n    color: #333;\n    background-color: #f2f2f2;\n}\nbutton {\n    border-radius: 24px;\n    padding: 6px 12px;\n    font-size: 1.4rem;\n    color: rgba(255,255,255,1);\n    background-color: rgba(0,0,0,1);\n}";
-import styleInject from '/Users/bxbcats/develop/rollup/node_modules/style-inject/dist/style-inject.es.js';
-styleInject(css_248z);
